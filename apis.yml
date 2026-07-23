@@ -1,7 +1,24 @@
 aid: alwans
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alwans.png
 name: Alwans
-description: Alwans is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Alwans is a Saudi technology investment and startup-development company based in
+  Al Khubar, Saudi Arabia, and launched in January 2010. The firm is focused on enriching local
+  Arabic technical content and competing globally by investing in and building startup ideas and
+  technology projects, with an emphasis on e-commerce, online marketing, mobile applications, and
+  mobile games. Alwans is a small team (2-10 employees) and is itself backed by 500 Global; its
+  portfolio includes companies such as Foodics and Fnjalah. It publishes no public API, developer
+  portal, or SDKs -- this profile is an identity record within the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/alwans/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +31,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Investment
+- Venture Capital
+- Startups
+- Technology
+- E-Commerce
+- Mobile
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://foodics.com
+  url: https://www.alwans.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alwans
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
